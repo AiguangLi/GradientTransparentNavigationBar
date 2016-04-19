@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BF507E81CC630C400475C4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF507E71CC630C400475C4B /* main.m */; };
+		6BF507EB1CC630C400475C4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF507EA1CC630C400475C4B /* AppDelegate.m */; };
+		6BF507EE1CC630C400475C4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF507ED1CC630C400475C4B /* ViewController.m */; };
+		6BF507F31CC630C400475C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF507F21CC630C400475C4B /* Assets.xcassets */; };
+		6BF508011CC630C400475C4B /* GradientTranparentNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF508001CC630C400475C4B /* GradientTranparentNavigationBarTests.m */; };
+		6BF5080C1CC630C400475C4B /* GradientTranparentNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5080B1CC630C400475C4B /* GradientTranparentNavigationBarUITests.m */; };
+		6BF5081C1CC6313500475C4B /* VisualFormatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5081B1CC6313500475C4B /* VisualFormatLayout.m */; };
+		6BF5081F1CC6314700475C4B /* UIImage+Part.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5081E1CC6314700475C4B /* UIImage+Part.m */; };
+		6BF508221CC6331000475C4B /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BF508211CC6331000475C4B /* banner.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BF507FD1CC630C400475C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF507DB1CC630C400475C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF507E21CC630C400475C4B;
+			remoteInfo = GradientTranparentNavigationBar;
+		};
+		6BF508081CC630C400475C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF507DB1CC630C400475C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF507E21CC630C400475C4B;
+			remoteInfo = GradientTranparentNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BF507E31CC630C400475C4B /* GradientTranparentNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradientTranparentNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF507E71CC630C400475C4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BF507E91CC630C400475C4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BF507EA1CC630C400475C4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BF507EC1CC630C400475C4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BF507ED1CC630C400475C4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BF507F21CC630C400475C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BF507F71CC630C400475C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF507FC1CC630C400475C4B /* GradientTranparentNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientTranparentNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF508001CC630C400475C4B /* GradientTranparentNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientTranparentNavigationBarTests.m; sourceTree = "<group>"; };
+		6BF508021CC630C400475C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF508071CC630C400475C4B /* GradientTranparentNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradientTranparentNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF5080B1CC630C400475C4B /* GradientTranparentNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientTranparentNavigationBarUITests.m; sourceTree = "<group>"; };
+		6BF5080D1CC630C400475C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF5081A1CC6313500475C4B /* VisualFormatLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualFormatLayout.h; sourceTree = "<group>"; };
+		6BF5081B1CC6313500475C4B /* VisualFormatLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualFormatLayout.m; sourceTree = "<group>"; };
+		6BF5081D1CC6314700475C4B /* UIImage+Part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Part.h"; sourceTree = "<group>"; };
+		6BF5081E1CC6314700475C4B /* UIImage+Part.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Part.m"; sourceTree = "<group>"; };
+		6BF508211CC6331000475C4B /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF507E01CC630C400475C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF507F91CC630C400475C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF508041CC630C400475C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF507DA1CC630C400475C4B = {
+			isa = PBXGroup;
+			children = (
+				6BF507E51CC630C400475C4B /* GradientTranparentNavigationBar */,
+				6BF507FF1CC630C400475C4B /* GradientTranparentNavigationBarTests */,
+				6BF5080A1CC630C400475C4B /* GradientTranparentNavigationBarUITests */,
+				6BF507E41CC630C400475C4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF507E41CC630C400475C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF507E31CC630C400475C4B /* GradientTranparentNavigationBar.app */,
+				6BF507FC1CC630C400475C4B /* GradientTranparentNavigationBarTests.xctest */,
+				6BF508071CC630C400475C4B /* GradientTranparentNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF507E51CC630C400475C4B /* GradientTranparentNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				6BF508191CC6313500475C4B /* VisualFormatLayout */,
+				6BF507E91CC630C400475C4B /* AppDelegate.h */,
+				6BF507EA1CC630C400475C4B /* AppDelegate.m */,
+				6BF507EC1CC630C400475C4B /* ViewController.h */,
+				6BF507ED1CC630C400475C4B /* ViewController.m */,
+				6BF507F21CC630C400475C4B /* Assets.xcassets */,
+				6BF507F71CC630C400475C4B /* Info.plist */,
+				6BF507E61CC630C400475C4B /* Supporting Files */,
+				6BF5081D1CC6314700475C4B /* UIImage+Part.h */,
+				6BF5081E1CC6314700475C4B /* UIImage+Part.m */,
+			);
+			path = GradientTranparentNavigationBar;
+			sourceTree = "<group>";
+		};
+		6BF507E61CC630C400475C4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF507E71CC630C400475C4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF507FF1CC630C400475C4B /* GradientTranparentNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF508001CC630C400475C4B /* GradientTranparentNavigationBarTests.m */,
+				6BF508021CC630C400475C4B /* Info.plist */,
+			);
+			path = GradientTranparentNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		6BF5080A1CC630C400475C4B /* GradientTranparentNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF5080B1CC630C400475C4B /* GradientTranparentNavigationBarUITests.m */,
+				6BF5080D1CC630C400475C4B /* Info.plist */,
+			);
+			path = GradientTranparentNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		6BF508191CC6313500475C4B /* VisualFormatLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6BF508201CC6331000475C4B /* Images */,
+				6BF5081A1CC6313500475C4B /* VisualFormatLayout.h */,
+				6BF5081B1CC6313500475C4B /* VisualFormatLayout.m */,
+			);
+			path = VisualFormatLayout;
+			sourceTree = "<group>";
+		};
+		6BF508201CC6331000475C4B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6BF508211CC6331000475C4B /* banner.jpg */,
+			);
+			name = Images;
+			path = GradientTranparentNavigationBar/Images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF507E21CC630C400475C4B /* GradientTranparentNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF508101CC630C400475C4B /* Build configuration list for PBXNativeTarget "GradientTranparentNavigationBar" */;
+			buildPhases = (
+				6BF507DF1CC630C400475C4B /* Sources */,
+				6BF507E01CC630C400475C4B /* Frameworks */,
+				6BF507E11CC630C400475C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradientTranparentNavigationBar;
+			productName = GradientTranparentNavigationBar;
+			productReference = 6BF507E31CC630C400475C4B /* GradientTranparentNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BF507FB1CC630C400475C4B /* GradientTranparentNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF508131CC630C400475C4B /* Build configuration list for PBXNativeTarget "GradientTranparentNavigationBarTests" */;
+			buildPhases = (
+				6BF507F81CC630C400475C4B /* Sources */,
+				6BF507F91CC630C400475C4B /* Frameworks */,
+				6BF507FA1CC630C400475C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF507FE1CC630C400475C4B /* PBXTargetDependency */,
+			);
+			name = GradientTranparentNavigationBarTests;
+			productName = GradientTranparentNavigationBarTests;
+			productReference = 6BF507FC1CC630C400475C4B /* GradientTranparentNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BF508061CC630C400475C4B /* GradientTranparentNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF508161CC630C400475C4B /* Build configuration list for PBXNativeTarget "GradientTranparentNavigationBarUITests" */;
+			buildPhases = (
+				6BF508031CC630C400475C4B /* Sources */,
+				6BF508041CC630C400475C4B /* Frameworks */,
+				6BF508051CC630C400475C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF508091CC630C400475C4B /* PBXTargetDependency */,
+			);
+			name = GradientTranparentNavigationBarUITests;
+			productName = GradientTranparentNavigationBarUITests;
+			productReference = 6BF508071CC630C400475C4B /* GradientTranparentNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF507DB1CC630C400475C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mooeen;
+				TargetAttributes = {
+					6BF507E21CC630C400475C4B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					6BF507FB1CC630C400475C4B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6BF507E21CC630C400475C4B;
+					};
+					6BF508061CC630C400475C4B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 6BF507E21CC630C400475C4B;
+					};
+				};
+			};
+			buildConfigurationList = 6BF507DE1CC630C400475C4B /* Build configuration list for PBXProject "GradientTranparentNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF507DA1CC630C400475C4B;
+			productRefGroup = 6BF507E41CC630C400475C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF507E21CC630C400475C4B /* GradientTranparentNavigationBar */,
+				6BF507FB1CC630C400475C4B /* GradientTranparentNavigationBarTests */,
+				6BF508061CC630C400475C4B /* GradientTranparentNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF507E11CC630C400475C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF507F31CC630C400475C4B /* Assets.xcassets in Resources */,
+				6BF508221CC6331000475C4B /* banner.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF507FA1CC630C400475C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF508051CC630C400475C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF507DF1CC630C400475C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF507EE1CC630C400475C4B /* ViewController.m in Sources */,
+				6BF507EB1CC630C400475C4B /* AppDelegate.m in Sources */,
+				6BF5081F1CC6314700475C4B /* UIImage+Part.m in Sources */,
+				6BF5081C1CC6313500475C4B /* VisualFormatLayout.m in Sources */,
+				6BF507E81CC630C400475C4B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF507F81CC630C400475C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF508011CC630C400475C4B /* GradientTranparentNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF508031CC630C400475C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF5080C1CC630C400475C4B /* GradientTranparentNavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BF507FE1CC630C400475C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF507E21CC630C400475C4B /* GradientTranparentNavigationBar */;
+			targetProxy = 6BF507FD1CC630C400475C4B /* PBXContainerItemProxy */;
+		};
+		6BF508091CC630C400475C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF507E21CC630C400475C4B /* GradientTranparentNavigationBar */;
+			targetProxy = 6BF508081CC630C400475C4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BF5080E1CC630C400475C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BF5080F1CC630C400475C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BF508111CC630C400475C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GradientTranparentNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.GradientTranparentNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BF508121CC630C400475C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GradientTranparentNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.GradientTranparentNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BF508141CC630C400475C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradientTranparentNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.GradientTranparentNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientTranparentNavigationBar.app/GradientTranparentNavigationBar";
+			};
+			name = Debug;
+		};
+		6BF508151CC630C400475C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradientTranparentNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.GradientTranparentNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradientTranparentNavigationBar.app/GradientTranparentNavigationBar";
+			};
+			name = Release;
+		};
+		6BF508171CC630C400475C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradientTranparentNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.GradientTranparentNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GradientTranparentNavigationBar;
+			};
+			name = Debug;
+		};
+		6BF508181CC630C400475C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradientTranparentNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mooeen.GradientTranparentNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GradientTranparentNavigationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF507DE1CC630C400475C4B /* Build configuration list for PBXProject "GradientTranparentNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF5080E1CC630C400475C4B /* Debug */,
+				6BF5080F1CC630C400475C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF508101CC630C400475C4B /* Build configuration list for PBXNativeTarget "GradientTranparentNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF508111CC630C400475C4B /* Debug */,
+				6BF508121CC630C400475C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BF508131CC630C400475C4B /* Build configuration list for PBXNativeTarget "GradientTranparentNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF508141CC630C400475C4B /* Debug */,
+				6BF508151CC630C400475C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BF508161CC630C400475C4B /* Build configuration list for PBXNativeTarget "GradientTranparentNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF508171CC630C400475C4B /* Debug */,
+				6BF508181CC630C400475C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF507DB1CC630C400475C4B /* Project object */;
+}
