@@ -10,7 +10,7 @@ When the user scrolls down, the navigation bar is transparent opaque, we decreas
 And finnally, the navigation bar's alpha is set to 1 to be fully transparent.
 
 #Screenshot shown as below:
-<p>![image](https://github.com/AiguangLi/GradientTransparentNavigationBar/blob/master/screenshot.gif)</p>
+<p>!![demo gif](https://github.com/AiguangLi/GradientTransparentNavigationBar/blob/master/screenshot.gif "Demo GIF")</p>
 
 #Addtional info
 The demo also provide a category to UIImage class to get part of an image for a given rect.
